@@ -9,11 +9,30 @@ import SwiftUI
 
 struct FilterView: View {
     
+    @EnvironmentObject var viewModel: MainViewModel
+    
     @State private var fav = false
     @State private var value: Double = 10
     
     var body: some View {
-        NavigationView {
+        VStack {
+            
+            ZStack(alignment: .leading) {
+                Rectangle().foregroundColor(Color(.systemGray6))
+                HStack {
+                    Image(systemName: "magnifyingglass.circle.fill")
+                        .foregroundColor(Color("vilo"))
+                        .font(.system(size: 30))
+                    Text("Search ...")
+                }
+                .foregroundColor(.gray)
+                .padding()
+            }
+            .frame(height:44)
+            .cornerRadius(15)
+            .padding()
+            .onTapGesture { viewModel.onEvent(.search) }
+            
             Form {
                 Section(header: Text("Favoris").foregroundColor(.black)) {
                     HStack {

@@ -45,6 +45,7 @@
 		BF6C5CD727670DA0003182C7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD627670DA0003182C7 /* MainViewModel.swift */; };
 		BF6C5CD927673787003182C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD827673787003182C7 /* Utils.swift */; };
 		BFAC66CB276819A400994230 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66CA276819A400994230 /* LocationManager.swift */; };
+		BFAC66CD2768485000994230 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66CC2768485000994230 /* FilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		BF6C5CD627670DA0003182C7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		BF6C5CD827673787003182C7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		BFAC66CA276819A400994230 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BFAC66CC2768485000994230 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 				BF6C5CD02765EB83003182C7 /* WeatherViewModel.swift */,
 				BF6C5CD22766E3DB003182C7 /* SearchViewmodel.swift */,
 				BF6C5CD627670DA0003182C7 /* MainViewModel.swift */,
+				BFAC66CC2768485000994230 /* FilterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				BF6C5CC52765B5FA003182C7 /* MapView.swift in Sources */,
 				BF6C5CAF27653C3F003182C7 /* WeatherView.swift in Sources */,
 				BF1CE8AE275F975100A31601 /* ContentView.swift in Sources */,
+				BFAC66CD2768485000994230 /* FilterViewModel.swift in Sources */,
 				BF6C5CA12764E76D003182C7 /* IconSquare.swift in Sources */,
 				BF6C5CBB2765AE97003182C7 /* SearchView.swift in Sources */,
 				BF6C5C9F27649329003182C7 /* IconCircle.swift in Sources */,

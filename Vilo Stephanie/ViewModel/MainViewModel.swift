@@ -52,4 +52,8 @@ final class MainViewModel: ObservableObject {
     func test() -> CGFloat {
         return offset < (height - 100) ? offset : (height - 100)
     }
+    
+    /* Filter Map */
+    
+    /* Search Place */
 }

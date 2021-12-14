@@ -15,7 +15,7 @@ struct SearchView: View {
     @State var isActive: Bool = false
     
     var body: some View {
-        NavigationView {
+        //NavigationView {
             //TODO:
             VStack {
                 ZStack {
@@ -76,7 +76,7 @@ struct SearchView: View {
                     }
                 }
             })
-        }
+        //}
     } // body
 }
 

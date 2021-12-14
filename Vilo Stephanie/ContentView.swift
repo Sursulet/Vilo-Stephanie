@@ -53,21 +53,21 @@ struct ContentView: View {
                                 .frame(width: 60, height: 4)
                                 .padding(.top)
                             
-                            ZStack(alignment: .leading) {
-                                Rectangle().foregroundColor(Color(.systemGray6))
-                                HStack {
-                                    Image(systemName: "magnifyingglass.circle.fill")
-                                        .foregroundColor(Color("vilo"))
-                                        .font(.system(size: 30))
-                                    Text("Search ...")
-                                }
-                                .foregroundColor(.gray)
-                                .padding()
-                            }
-                            .frame(height:44)
-                            .cornerRadius(15)
-                            .padding()
-                            .onTapGesture { viewModel.onEvent(.search) }
+//                            ZStack(alignment: .leading) {
+//                                Rectangle().foregroundColor(Color(.systemGray6))
+//                                HStack {
+//                                    Image(systemName: "magnifyingglass.circle.fill")
+//                                        .foregroundColor(Color("vilo"))
+//                                        .font(.system(size: 30))
+//                                    Text("Search ...")
+//                                }
+//                                .foregroundColor(.gray)
+//                                .padding()
+//                            }
+//                            .frame(height:44)
+//                            .cornerRadius(15)
+//                            .padding()
+//                            .onTapGesture { viewModel.onEvent(.search) }
                             
                             //Content
                             //ScrollView(.vertical, showsIndicators: false, content: {
@@ -99,6 +99,7 @@ struct ContentView: View {
             }
             .ignoresSafeArea(.all, edges: .bottom)
         }
+        .environmentObject(viewModel)
     }
 }
 
@@ -113,7 +114,6 @@ struct BottomContent: View {
     var active: ActiveContent
     
     var body: some View {
-        Text("HUI")
         
         switch active {
             case .profile:

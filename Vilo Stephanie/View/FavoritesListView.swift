@@ -11,7 +11,7 @@ struct FavoritesListView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: FilterView()) {
+                NavigationLink(destination: ProfileView()) {
                     Label(title: {Text("y")}, icon: {Image(systemName: "heart")})
                 }
             }
