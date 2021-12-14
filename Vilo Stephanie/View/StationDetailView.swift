@@ -8,12 +8,15 @@
 import SwiftUI
 
 struct StationDetailView: View {
+    
+    @Binding var station: Station
+    
     var body: some View {
         VStack {
             HStack {
-                Label(title: { Text(" vélos") }, icon: { IconCircle(symbol: "bicycle") })
-                Label(title: { Text(" vélos") }, icon: { IconCircle(symbol: "bolt") })
-                Label(title: { Text(" vélos") }, icon: { IconCircle(symbol: "parkingsign") })
+                Label(title: { Text("\(station.bike) vélos") }, icon: { IconCircle(symbol: "bicycle") })
+                Label(title: { Text("\(station.vae) vae") }, icon: { IconCircle(symbol: "bolt") })
+                Label(title: { Text("\(station.place) places") }, icon: { IconCircle(symbol: "parkingsign") })
             }
             
             Image(systemName: "heart")
@@ -23,6 +26,6 @@ struct StationDetailView: View {
 
 struct StationDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        StationDetailView()
+        StationDetailView(station: .constant(Station(bike: 8, vae: 4, place: 14)))
     }
 }

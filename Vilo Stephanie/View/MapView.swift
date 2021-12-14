@@ -11,11 +11,24 @@ import CoreLocationUI
 
 struct MapView: View {
     
-    @StateObject private var viewModel = MapViewModel()
+    //@StateObject private var viewModel = MapViewModel()
+    @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
         ZStack(alignment: .bottomTrailing) {
-            Map(coordinateRegion: $viewModel.region, showsUserLocation: true)
+            Map(coordinateRegion: $viewModel.region,
+                showsUserLocation: true,
+                annotationItems: viewModel.filteredPlaces) {
+                place in
+
+                MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: place.placemark.location?.coordinate.latitude ?? 48.86, longitude: place.placemark.location?.coordinate.longitude ?? 2.33)) {
+                    
+                    MarkerView()
+                        .onTapGesture {
+                            viewModel.activeContent = .detail
+                        }
+                }
+            }
                 .ignoresSafeArea()
             
             VStack {
@@ -24,10 +37,11 @@ struct MapView: View {
                     label: { IconSquare(symbol: "bicycle") })
                 
                 LocationButton(.currentLocation) {
-                    viewModel.requestAllowOnceLocationPermission()
+                    viewModel.permissionMap()//.requestAllowOnceLocationPermission()
                 }
-                //.foregroundColor(.white)
-                //.cornerRadius(8)
+                .font(.system(size: 35))
+                .foregroundColor(.white)
+                .cornerRadius(15)
                 .tint(Color("vilo"))
                 .labelStyle(.iconOnly)
                 .symbolVariant(.fill)
@@ -41,5 +55,6 @@ struct MapView: View {
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView()
+            .environmentObject(MainViewModel())
     }
 }

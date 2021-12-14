@@ -46,6 +46,9 @@
 		BF6C5CD927673787003182C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD827673787003182C7 /* Utils.swift */; };
 		BFAC66CB276819A400994230 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66CA276819A400994230 /* LocationManager.swift */; };
 		BFAC66CD2768485000994230 /* FilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66CC2768485000994230 /* FilterViewModel.swift */; };
+		BFAC66D02768759000994230 /* DiamondArrowShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66CF2768759000994230 /* DiamondArrowShape.swift */; };
+		BFAC66D22768772800994230 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66D12768772800994230 /* MarkerView.swift */; };
+		BFAC66D4276887A100994230 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66D3276887A100994230 /* Station.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +111,9 @@
 		BF6C5CD827673787003182C7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		BFAC66CA276819A400994230 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		BFAC66CC2768485000994230 /* FilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewModel.swift; sourceTree = "<group>"; };
+		BFAC66CF2768759000994230 /* DiamondArrowShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondArrowShape.swift; sourceTree = "<group>"; };
+		BFAC66D12768772800994230 /* MarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
+		BFAC66D3276887A100994230 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +164,7 @@
 		BF1CE8AA275F975100A31601 /* Vilo Stephanie */ = {
 			isa = PBXGroup;
 			children = (
+				BFAC66CE2768750500994230 /* Shape */,
 				BFAC66C92768198C00994230 /* Services */,
 				BF6C5CC72765BB6B003182C7 /* ViewModel */,
 				BF6C5CC62765BB65003182C7 /* Model */,
@@ -236,7 +243,7 @@
 				BF6C5CAC276537DB003182C7 /* ProfileRow.swift */,
 				BF6C5CB027653C6A003182C7 /* WeatherRow.swift */,
 				BF6C5CB227654047003182C7 /* BubbleView.swift */,
-				BF6C5CB42765463F003182C7 /* BubbleShape.swift */,
+				BFAC66D12768772800994230 /* MarkerView.swift */,
 			);
 			path = Extracted;
 			sourceTree = "<group>";
@@ -247,6 +254,7 @@
 				BF6C5CCE2765EAD7003182C7 /* WeatherResponse.swift */,
 				BF6C5CD42766EB4F003182C7 /* Place.swift */,
 				BF6C5CD827673787003182C7 /* Utils.swift */,
+				BFAC66D3276887A100994230 /* Station.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -269,6 +277,15 @@
 				BFAC66CA276819A400994230 /* LocationManager.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		BFAC66CE2768750500994230 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5CB42765463F003182C7 /* BubbleShape.swift */,
+				BFAC66CF2768759000994230 /* DiamondArrowShape.swift */,
+			);
+			path = Shape;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +427,9 @@
 				BF6C5CA52764F98E003182C7 /* TogglePrimary.swift in Sources */,
 				BF6C5CD727670DA0003182C7 /* MainViewModel.swift in Sources */,
 				BF6C5CC32765B41A003182C7 /* RideEndView.swift in Sources */,
+				BFAC66D22768772800994230 /* MarkerView.swift in Sources */,
+				BFAC66D02768759000994230 /* DiamondArrowShape.swift in Sources */,
+				BFAC66D4276887A100994230 /* Station.swift in Sources */,
 				BF6C5CCF2765EAD7003182C7 /* WeatherResponse.swift in Sources */,
 				BF6C5CC92765C17E003182C7 /* ModelData.swift in Sources */,
 				BF6C5CCB2765C1F0003182C7 /* MapViewModel.swift in Sources */,

@@ -8,5 +8,5 @@
 import Foundation
 
 enum ActiveContent {
-    case filter, profile, weather, report, search, favorites
+    case filter, profile, weather, report, search, favorites, detail
 }

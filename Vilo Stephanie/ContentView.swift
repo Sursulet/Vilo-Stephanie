@@ -71,7 +71,7 @@ struct ContentView: View {
                             
                             //Content
                             //ScrollView(.vertical, showsIndicators: false, content: {
-                            BottomContent(active: viewModel.activeContent)
+                            BottomContent()
                             //})
                         }
                         .padding(.horizontal)
@@ -111,11 +111,11 @@ struct ContentView_Previews: PreviewProvider {
 
 struct BottomContent: View {
     
-    var active: ActiveContent
+    @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
         
-        switch active {
+        switch viewModel.activeContent {
             case .profile:
                 ProfileView()
             case .weather:
@@ -128,6 +128,8 @@ struct BottomContent: View {
                 RideDetailView()
             case .filter:
                 FilterView()
+            case .detail:
+                StationDetailView(station: $viewModel.selectedStation)
         }
     }
 }

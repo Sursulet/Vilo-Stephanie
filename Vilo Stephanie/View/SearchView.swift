@@ -10,14 +10,20 @@ import CoreLocationUI
 
 struct SearchView: View {
     
-    @StateObject var viewmodel = SearchViewModel()
+    @EnvironmentObject var viewmodel: MainViewModel
     @State var search: String = ""
     @State var isActive: Bool = false
     
     var body: some View {
         //NavigationView {
             //TODO:
-            VStack {
+        VStack(spacing: 0) {
+//                HStack {
+//                    LocationButton(.currentLocation) {
+//                        //viewmodel.requestAllowOnceLocationPermission()
+//                    }
+//                }
+                
                 ZStack {
                     Rectangle().foregroundColor(Color(.systemGray6))
                     HStack {
@@ -39,19 +45,23 @@ struct SearchView: View {
                     ScrollView {
                         VStack(spacing: 15) {
                             ForEach(viewmodel.places) { place in
-                                Text(place.placemark.name ?? "")
-                                    .foregroundColor(.black)
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                Text(place.address)
+                                VStack {
+                                    Text(place.placemark.name ?? "")
+                                        .foregroundColor(.black)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                        .padding(.leading)
+                                    Text(place.address)
+                                }
+                                .onTapGesture {
+                                    viewmodel.selectPlace(place: place)
+                                }
+                                
+                                Divider()
                             }
                         }
+                        .padding(.top)
                     }
-                }
-                
-                HStack {
-                    LocationButton(.currentLocation) {
-                        viewmodel.requestAllowOnceLocationPermission()
-                    }
+                    .background(.white)
                 }
                 
                 List {
@@ -83,5 +93,6 @@ struct SearchView: View {
 struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
         SearchView()
+            .environmentObject(MainViewModel())
     }
 }
