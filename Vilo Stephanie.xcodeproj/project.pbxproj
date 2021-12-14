@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1CE8AC275F975100A31601 /* Vilo_StephanieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8AB275F975100A31601 /* Vilo_StephanieApp.swift */; };
+		BF1CE8AE275F975100A31601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8AD275F975100A31601 /* ContentView.swift */; };
+		BF1CE8B0275F975200A31601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8AF275F975200A31601 /* Assets.xcassets */; };
+		BF1CE8B3275F975200A31601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1CE8B2275F975200A31601 /* Preview Assets.xcassets */; };
+		BF1CE8BD275F975200A31601 /* Vilo_StephanieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8BC275F975200A31601 /* Vilo_StephanieTests.swift */; };
+		BF1CE8C7275F975200A31601 /* Vilo_StephanieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8C6275F975200A31601 /* Vilo_StephanieUITests.swift */; };
+		BF1CE8C9275F975200A31601 /* Vilo_StephanieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1CE8C8275F975200A31601 /* Vilo_StephanieUITestsLaunchTests.swift */; };
+		BF6C5C9C27649292003182C7 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5C9B27649292003182C7 /* FilterView.swift */; };
+		BF6C5C9F27649329003182C7 /* IconCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5C9E27649329003182C7 /* IconCircle.swift */; };
+		BF6C5CA12764E76D003182C7 /* IconSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CA02764E76D003182C7 /* IconSquare.swift */; };
+		BF6C5CA32764E83D003182C7 /* Btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CA22764E83D003182C7 /* Btn.swift */; };
+		BF6C5CA52764F98E003182C7 /* TogglePrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CA42764F98E003182C7 /* TogglePrimary.swift */; };
+		BF6C5CA72764FF7D003182C7 /* SliderPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CA62764FF7D003182C7 /* SliderPrimary.swift */; };
+		BF6C5CA927653311003182C7 /* FavoritesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CA827653311003182C7 /* FavoritesListView.swift */; };
+		BF6C5CAB2765361B003182C7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CAA2765361B003182C7 /* ProfileView.swift */; };
+		BF6C5CAD276537DB003182C7 /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CAC276537DB003182C7 /* ProfileRow.swift */; };
+		BF6C5CAF27653C3F003182C7 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CAE27653C3F003182C7 /* WeatherView.swift */; };
+		BF6C5CB127653C6A003182C7 /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CB027653C6A003182C7 /* WeatherRow.swift */; };
+		BF6C5CB327654047003182C7 /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CB227654047003182C7 /* BubbleView.swift */; };
+		BF6C5CB52765463F003182C7 /* BubbleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CB42765463F003182C7 /* BubbleShape.swift */; };
+		BF6C5CB72765ABA6003182C7 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CB62765ABA6003182C7 /* StationDetailView.swift */; };
+		BF6C5CB92765ACD2003182C7 /* AddEditFavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CB82765ACD2003182C7 /* AddEditFavoriteView.swift */; };
+		BF6C5CBB2765AE97003182C7 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CBA2765AE97003182C7 /* SearchView.swift */; };
+		BF6C5CBD2765AF06003182C7 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CBC2765AF06003182C7 /* ReportView.swift */; };
+		BF6C5CBF2765AF9D003182C7 /* RideDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CBE2765AF9D003182C7 /* RideDetailView.swift */; };
+		BF6C5CC12765B02A003182C7 /* RideDetail1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CC02765B02A003182C7 /* RideDetail1View.swift */; };
+		BF6C5CC32765B41A003182C7 /* RideEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CC22765B41A003182C7 /* RideEndView.swift */; };
+		BF6C5CC52765B5FA003182C7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CC42765B5FA003182C7 /* MapView.swift */; };
+		BF6C5CC92765C17E003182C7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CC82765C17E003182C7 /* ModelData.swift */; };
+		BF6C5CCB2765C1F0003182C7 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CCA2765C1F0003182C7 /* MapViewModel.swift */; };
+		BF6C5CCD2765E7EB003182C7 /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = BF6C5CCC2765E7EB003182C7 /* weather.json */; };
+		BF6C5CCF2765EAD7003182C7 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CCE2765EAD7003182C7 /* WeatherResponse.swift */; };
+		BF6C5CD12765EB83003182C7 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD02765EB83003182C7 /* WeatherViewModel.swift */; };
+		BF6C5CD32766E3DB003182C7 /* SearchViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD22766E3DB003182C7 /* SearchViewmodel.swift */; };
+		BF6C5CD52766EB4F003182C7 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD42766EB4F003182C7 /* Place.swift */; };
+		BF6C5CD727670DA0003182C7 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD627670DA0003182C7 /* MainViewModel.swift */; };
+		BF6C5CD927673787003182C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C5CD827673787003182C7 /* Utils.swift */; };
+		BFAC66CB276819A400994230 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC66CA276819A400994230 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1CE8B9275F975200A31601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1CE8A0275F975100A31601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1CE8A7275F975100A31601;
+			remoteInfo = "Vilo Stephanie";
+		};
+		BF1CE8C3275F975200A31601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1CE8A0275F975100A31601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1CE8A7275F975100A31601;
+			remoteInfo = "Vilo Stephanie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1CE8A8275F975100A31601 /* Vilo Stephanie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vilo Stephanie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1CE8AB275F975100A31601 /* Vilo_StephanieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_StephanieApp.swift; sourceTree = "<group>"; };
+		BF1CE8AD275F975100A31601 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF1CE8AF275F975200A31601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1CE8B2275F975200A31601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF1CE8B8275F975200A31601 /* Vilo StephanieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vilo StephanieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1CE8BC275F975200A31601 /* Vilo_StephanieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_StephanieTests.swift; sourceTree = "<group>"; };
+		BF1CE8C2275F975200A31601 /* Vilo StephanieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vilo StephanieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1CE8C6275F975200A31601 /* Vilo_StephanieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_StephanieUITests.swift; sourceTree = "<group>"; };
+		BF1CE8C8275F975200A31601 /* Vilo_StephanieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vilo_StephanieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF6C5C9B27649292003182C7 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		BF6C5C9E27649329003182C7 /* IconCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCircle.swift; sourceTree = "<group>"; };
+		BF6C5CA02764E76D003182C7 /* IconSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSquare.swift; sourceTree = "<group>"; };
+		BF6C5CA22764E83D003182C7 /* Btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Btn.swift; sourceTree = "<group>"; };
+		BF6C5CA42764F98E003182C7 /* TogglePrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePrimary.swift; sourceTree = "<group>"; };
+		BF6C5CA62764FF7D003182C7 /* SliderPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPrimary.swift; sourceTree = "<group>"; };
+		BF6C5CA827653311003182C7 /* FavoritesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListView.swift; sourceTree = "<group>"; };
+		BF6C5CAA2765361B003182C7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BF6C5CAC276537DB003182C7 /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
+		BF6C5CAE27653C3F003182C7 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		BF6C5CB027653C6A003182C7 /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
+		BF6C5CB227654047003182C7 /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		BF6C5CB42765463F003182C7 /* BubbleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleShape.swift; sourceTree = "<group>"; };
+		BF6C5CB62765ABA6003182C7 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
+		BF6C5CB82765ACD2003182C7 /* AddEditFavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditFavoriteView.swift; sourceTree = "<group>"; };
+		BF6C5CBA2765AE97003182C7 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		BF6C5CBC2765AF06003182C7 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		BF6C5CBE2765AF9D003182C7 /* RideDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetailView.swift; sourceTree = "<group>"; };
+		BF6C5CC02765B02A003182C7 /* RideDetail1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideDetail1View.swift; sourceTree = "<group>"; };
+		BF6C5CC22765B41A003182C7 /* RideEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideEndView.swift; sourceTree = "<group>"; };
+		BF6C5CC42765B5FA003182C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BF6C5CC82765C17E003182C7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		BF6C5CCA2765C1F0003182C7 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		BF6C5CCC2765E7EB003182C7 /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = weather.json; path = ../../../weather.json; sourceTree = "<group>"; };
+		BF6C5CCE2765EAD7003182C7 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		BF6C5CD02765EB83003182C7 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		BF6C5CD22766E3DB003182C7 /* SearchViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewmodel.swift; sourceTree = "<group>"; };
+		BF6C5CD42766EB4F003182C7 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BF6C5CD627670DA0003182C7 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		BF6C5CD827673787003182C7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BFAC66CA276819A400994230 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1CE8A5275F975100A31601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1CE8B5275F975200A31601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1CE8BF275F975200A31601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1CE89F275F975100A31601 = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8AA275F975100A31601 /* Vilo Stephanie */,
+				BF1CE8BB275F975200A31601 /* Vilo StephanieTests */,
+				BF1CE8C5275F975200A31601 /* Vilo StephanieUITests */,
+				BF1CE8A9275F975100A31601 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1CE8A9275F975100A31601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8A8275F975100A31601 /* Vilo Stephanie.app */,
+				BF1CE8B8275F975200A31601 /* Vilo StephanieTests.xctest */,
+				BF1CE8C2275F975200A31601 /* Vilo StephanieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1CE8AA275F975100A31601 /* Vilo Stephanie */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC66C92768198C00994230 /* Services */,
+				BF6C5CC72765BB6B003182C7 /* ViewModel */,
+				BF6C5CC62765BB65003182C7 /* Model */,
+				BF6C5C9A27648F2A003182C7 /* View */,
+				BF1CE8AF275F975200A31601 /* Assets.xcassets */,
+				BF1CE8AD275F975100A31601 /* ContentView.swift */,
+				BF1CE8B1275F975200A31601 /* Preview Content */,
+				BF6C5C9927648B4D003182C7 /* Ressources */,
+				BF1CE8AB275F975100A31601 /* Vilo_StephanieApp.swift */,
+				BF6C5CC82765C17E003182C7 /* ModelData.swift */,
+			);
+			path = "Vilo Stephanie";
+			sourceTree = "<group>";
+		};
+		BF1CE8B1275F975200A31601 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8B2275F975200A31601 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF1CE8BB275F975200A31601 /* Vilo StephanieTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8BC275F975200A31601 /* Vilo_StephanieTests.swift */,
+			);
+			path = "Vilo StephanieTests";
+			sourceTree = "<group>";
+		};
+		BF1CE8C5275F975200A31601 /* Vilo StephanieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1CE8C6275F975200A31601 /* Vilo_StephanieUITests.swift */,
+				BF1CE8C8275F975200A31601 /* Vilo_StephanieUITestsLaunchTests.swift */,
+			);
+			path = "Vilo StephanieUITests";
+			sourceTree = "<group>";
+		};
+		BF6C5C9927648B4D003182C7 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5CCC2765E7EB003182C7 /* weather.json */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		BF6C5C9A27648F2A003182C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5CB82765ACD2003182C7 /* AddEditFavoriteView.swift */,
+				BF6C5CA827653311003182C7 /* FavoritesListView.swift */,
+				BF6C5C9B27649292003182C7 /* FilterView.swift */,
+				BF6C5CC42765B5FA003182C7 /* MapView.swift */,
+				BF6C5CAA2765361B003182C7 /* ProfileView.swift */,
+				BF6C5CBC2765AF06003182C7 /* ReportView.swift */,
+				BF6C5CC02765B02A003182C7 /* RideDetail1View.swift */,
+				BF6C5CBE2765AF9D003182C7 /* RideDetailView.swift */,
+				BF6C5CC22765B41A003182C7 /* RideEndView.swift */,
+				BF6C5CBA2765AE97003182C7 /* SearchView.swift */,
+				BF6C5CB62765ABA6003182C7 /* StationDetailView.swift */,
+				BF6C5CAE27653C3F003182C7 /* WeatherView.swift */,
+				BF6C5C9D276492A8003182C7 /* Extracted */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BF6C5C9D276492A8003182C7 /* Extracted */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5C9E27649329003182C7 /* IconCircle.swift */,
+				BF6C5CA02764E76D003182C7 /* IconSquare.swift */,
+				BF6C5CA22764E83D003182C7 /* Btn.swift */,
+				BF6C5CA42764F98E003182C7 /* TogglePrimary.swift */,
+				BF6C5CA62764FF7D003182C7 /* SliderPrimary.swift */,
+				BF6C5CAC276537DB003182C7 /* ProfileRow.swift */,
+				BF6C5CB027653C6A003182C7 /* WeatherRow.swift */,
+				BF6C5CB227654047003182C7 /* BubbleView.swift */,
+				BF6C5CB42765463F003182C7 /* BubbleShape.swift */,
+			);
+			path = Extracted;
+			sourceTree = "<group>";
+		};
+		BF6C5CC62765BB65003182C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5CCE2765EAD7003182C7 /* WeatherResponse.swift */,
+				BF6C5CD42766EB4F003182C7 /* Place.swift */,
+				BF6C5CD827673787003182C7 /* Utils.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF6C5CC72765BB6B003182C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C5CCA2765C1F0003182C7 /* MapViewModel.swift */,
+				BF6C5CD02765EB83003182C7 /* WeatherViewModel.swift */,
+				BF6C5CD22766E3DB003182C7 /* SearchViewmodel.swift */,
+				BF6C5CD627670DA0003182C7 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BFAC66C92768198C00994230 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC66CA276819A400994230 /* LocationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1CE8A7275F975100A31601 /* Vilo Stephanie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1CE8CC275F975200A31601 /* Build configuration list for PBXNativeTarget "Vilo Stephanie" */;
+			buildPhases = (
+				BF1CE8A4275F975100A31601 /* Sources */,
+				BF1CE8A5275F975100A31601 /* Frameworks */,
+				BF1CE8A6275F975100A31601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vilo Stephanie";
+			productName = "Vilo Stephanie";
+			productReference = BF1CE8A8275F975100A31601 /* Vilo Stephanie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF1CE8B7275F975200A31601 /* Vilo StephanieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1CE8CF275F975200A31601 /* Build configuration list for PBXNativeTarget "Vilo StephanieTests" */;
+			buildPhases = (
+				BF1CE8B4275F975200A31601 /* Sources */,
+				BF1CE8B5275F975200A31601 /* Frameworks */,
+				BF1CE8B6275F975200A31601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1CE8BA275F975200A31601 /* PBXTargetDependency */,
+			);
+			name = "Vilo StephanieTests";
+			productName = "Vilo StephanieTests";
+			productReference = BF1CE8B8275F975200A31601 /* Vilo StephanieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF1CE8C1275F975200A31601 /* Vilo StephanieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1CE8D2275F975200A31601 /* Build configuration list for PBXNativeTarget "Vilo StephanieUITests" */;
+			buildPhases = (
+				BF1CE8BE275F975200A31601 /* Sources */,
+				BF1CE8BF275F975200A31601 /* Frameworks */,
+				BF1CE8C0275F975200A31601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1CE8C4275F975200A31601 /* PBXTargetDependency */,
+			);
+			name = "Vilo StephanieUITests";
+			productName = "Vilo StephanieUITests";
+			productReference = BF1CE8C2275F975200A31601 /* Vilo StephanieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1CE8A0275F975100A31601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					BF1CE8A7275F975100A31601 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					BF1CE8B7275F975200A31601 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BF1CE8A7275F975100A31601;
+					};
+					BF1CE8C1275F975200A31601 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = BF1CE8A7275F975100A31601;
+					};
+				};
+			};
+			buildConfigurationList = BF1CE8A3275F975100A31601 /* Build configuration list for PBXProject "Vilo Stephanie" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1CE89F275F975100A31601;
+			productRefGroup = BF1CE8A9275F975100A31601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1CE8A7275F975100A31601 /* Vilo Stephanie */,
+				BF1CE8B7275F975200A31601 /* Vilo StephanieTests */,
+				BF1CE8C1275F975200A31601 /* Vilo StephanieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1CE8A6275F975100A31601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE8B3275F975200A31601 /* Preview Assets.xcassets in Resources */,
+				BF1CE8B0275F975200A31601 /* Assets.xcassets in Resources */,
+				BF6C5CCD2765E7EB003182C7 /* weather.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1CE8B6275F975200A31601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1CE8C0275F975200A31601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1CE8A4275F975100A31601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6C5CB92765ACD2003182C7 /* AddEditFavoriteView.swift in Sources */,
+				BF6C5CD52766EB4F003182C7 /* Place.swift in Sources */,
+				BF6C5CBF2765AF9D003182C7 /* RideDetailView.swift in Sources */,
+				BF6C5CA32764E83D003182C7 /* Btn.swift in Sources */,
+				BFAC66CB276819A400994230 /* LocationManager.swift in Sources */,
+				BF6C5CA52764F98E003182C7 /* TogglePrimary.swift in Sources */,
+				BF6C5CD727670DA0003182C7 /* MainViewModel.swift in Sources */,
+				BF6C5CC32765B41A003182C7 /* RideEndView.swift in Sources */,
+				BF6C5CCF2765EAD7003182C7 /* WeatherResponse.swift in Sources */,
+				BF6C5CC92765C17E003182C7 /* ModelData.swift in Sources */,
+				BF6C5CCB2765C1F0003182C7 /* MapViewModel.swift in Sources */,
+				BF6C5CB72765ABA6003182C7 /* StationDetailView.swift in Sources */,
+				BF6C5CB327654047003182C7 /* BubbleView.swift in Sources */,
+				BF6C5CD12765EB83003182C7 /* WeatherViewModel.swift in Sources */,
+				BF6C5CAB2765361B003182C7 /* ProfileView.swift in Sources */,
+				BF6C5CB127653C6A003182C7 /* WeatherRow.swift in Sources */,
+				BF6C5CC52765B5FA003182C7 /* MapView.swift in Sources */,
+				BF6C5CAF27653C3F003182C7 /* WeatherView.swift in Sources */,
+				BF1CE8AE275F975100A31601 /* ContentView.swift in Sources */,
+				BF6C5CA12764E76D003182C7 /* IconSquare.swift in Sources */,
+				BF6C5CBB2765AE97003182C7 /* SearchView.swift in Sources */,
+				BF6C5C9F27649329003182C7 /* IconCircle.swift in Sources */,
+				BF6C5CD927673787003182C7 /* Utils.swift in Sources */,
+				BF6C5CA927653311003182C7 /* FavoritesListView.swift in Sources */,
+				BF6C5CBD2765AF06003182C7 /* ReportView.swift in Sources */,
+				BF6C5CB52765463F003182C7 /* BubbleShape.swift in Sources */,
+				BF6C5CD32766E3DB003182C7 /* SearchViewmodel.swift in Sources */,
+				BF6C5CC12765B02A003182C7 /* RideDetail1View.swift in Sources */,
+				BF6C5CAD276537DB003182C7 /* ProfileRow.swift in Sources */,
+				BF6C5CA72764FF7D003182C7 /* SliderPrimary.swift in Sources */,
+				BF6C5C9C27649292003182C7 /* FilterView.swift in Sources */,
+				BF1CE8AC275F975100A31601 /* Vilo_StephanieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1CE8B4275F975200A31601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE8BD275F975200A31601 /* Vilo_StephanieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1CE8BE275F975200A31601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1CE8C9275F975200A31601 /* Vilo_StephanieUITestsLaunchTests.swift in Sources */,
+				BF1CE8C7275F975200A31601 /* Vilo_StephanieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF1CE8BA275F975200A31601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1CE8A7275F975100A31601 /* Vilo Stephanie */;
+			targetProxy = BF1CE8B9275F975200A31601 /* PBXContainerItemProxy */;
+		};
+		BF1CE8C4275F975200A31601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1CE8A7275F975100A31601 /* Vilo Stephanie */;
+			targetProxy = BF1CE8C3275F975200A31601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF1CE8CA275F975200A31601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1CE8CB275F975200A31601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1CE8CD275F975200A31601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vilo Stephanie/Preview Content\"";
+				DEVELOPMENT_TEAM = YVR67QP87G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileteam.Vilo-Stephanie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1CE8CE275F975200A31601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vilo Stephanie/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileteam.Vilo-Stephanie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF1CE8D0275F975200A31601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YVR67QP87G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileteam.Vilo-StephanieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vilo Stephanie.app/Vilo Stephanie";
+			};
+			name = Debug;
+		};
+		BF1CE8D1275F975200A31601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileteam.Vilo-StephanieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vilo Stephanie.app/Vilo Stephanie";
+			};
+			name = Release;
+		};
+		BF1CE8D3275F975200A31601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YVR67QP87G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileteam.Vilo-StephanieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vilo Stephanie";
+			};
+			name = Debug;
+		};
+		BF1CE8D4275F975200A31601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobileteam.Vilo-StephanieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Vilo Stephanie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1CE8A3275F975100A31601 /* Build configuration list for PBXProject "Vilo Stephanie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE8CA275F975200A31601 /* Debug */,
+				BF1CE8CB275F975200A31601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1CE8CC275F975200A31601 /* Build configuration list for PBXNativeTarget "Vilo Stephanie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE8CD275F975200A31601 /* Debug */,
+				BF1CE8CE275F975200A31601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1CE8CF275F975200A31601 /* Build configuration list for PBXNativeTarget "Vilo StephanieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE8D0275F975200A31601 /* Debug */,
+				BF1CE8D1275F975200A31601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1CE8D2275F975200A31601 /* Build configuration list for PBXNativeTarget "Vilo StephanieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1CE8D3275F975200A31601 /* Debug */,
+				BF1CE8D4275F975200A31601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF1CE8A0275F975100A31601 /* Project object */;
+}
